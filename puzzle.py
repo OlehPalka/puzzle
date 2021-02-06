@@ -1,6 +1,7 @@
 """
 This module contains function that checks if the board is
 ready for the start of the game.
+git hub link https://github.com/OlehPalka/puzzle
 """
 
 
