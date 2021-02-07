@@ -5,9 +5,6 @@ git hub link https://github.com/OlehPalka/puzzle
 """
 
 
-import doctest
-
-
 def horizontal_check(board):
     """
     This function checks horizontals in the board.
@@ -98,6 +95,3 @@ def validate_board(board):
             if part.count(element) != 1 and element not in "* ":
                 return False
     return result
-
-
-print(doctest.testmod())
